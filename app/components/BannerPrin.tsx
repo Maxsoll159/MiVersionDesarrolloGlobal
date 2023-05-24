@@ -34,7 +34,7 @@ export const BannerPrin = () => {
                     <h3 className="w-screen">2</h3>
                 </div>
                 <div className="bg-blue-500 w-screen h-[500px]">
-                    <h3 className="w-screen">3</h3>
+                    <h3 className="w-screen">4</h3>
                 </div>
             </Slider>
         </div>
