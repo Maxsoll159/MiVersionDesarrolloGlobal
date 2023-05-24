@@ -14,7 +14,11 @@ export const EnlacexNav = () => {
         <>
             <div className="flex items-center">
                 <Ingresar tipo={"movil"} />
-                <button className="block lg:hidden py-2 px-4 border rounded-md" onClick={() => setAbrir(true)}><FontAwesomeIcon icon={faBars} /></button>
+                <button className="block lg:hidden h-[44px] py-3 px-4 border rounded-md space-y-1" onClick={() => setAbrir(true)}>
+                    <div className="h-[2px] w-[20px] bg-black"></div>
+                    <div className="h-[2px] w-full bg-black"></div>
+                    <div className="h-[2px] w-full bg-black"></div>
+                </button>
             </div>
             <div className={`flex flex-col top-0 absolute left-0 p-5 ${abrir && "translate-x-0"} -translate-x-full transition-all duration-300 ease-in-out bg-white z-[999] w-full lg:p-0 h-screen lg:h-auto lg:w-auto lg:flex-row lg:bg-transparent lg:relative lg:items-center gap-5 space-x-2 lg:translate-x-0`}>
                 <div className="flex items-center w-full justify-between">
