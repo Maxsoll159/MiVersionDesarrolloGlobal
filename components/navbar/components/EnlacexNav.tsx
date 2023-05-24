@@ -3,7 +3,7 @@ import Link from "next/link"
 import { SubMenu } from "./SubMenu"
 import Image from "next/image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons"
+import { faXmark } from "@fortawesome/free-solid-svg-icons"
 import { useState } from "react"
 import { Ingresar } from "./Login"
 

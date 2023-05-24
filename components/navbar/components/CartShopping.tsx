@@ -3,7 +3,6 @@ import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Popover, Transition } from '@headlessui/react'
 import { Fragment } from 'react'
-import { ContentSubMenu } from './components/ContentSubMenu';
 
 export const CartShopping = () => {
     return (

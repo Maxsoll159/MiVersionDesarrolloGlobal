@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.slick-next {
+    display: none !important;
+    right: 0 !important;
+}

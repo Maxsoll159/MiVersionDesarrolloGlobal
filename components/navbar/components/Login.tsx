@@ -1,9 +1,6 @@
 "use client"
-import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
 import { ModalLogin } from './components/ModalLogin'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLaptopCode } from '@fortawesome/free-solid-svg-icons'
 import Image from 'next/image'
 
 export const Ingresar = ({ tipo }: { tipo: string }) => {
